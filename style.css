@@ -1,0 +1,13 @@
+.parallax {
+  background-image: url('your-image.jpg');
+  height: 500px;
+  background-attachment: fixed; /* вот он ключевой момент */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content {
+  padding: 20px;
+  background-color: #fff;
+  color: #000;
+}
